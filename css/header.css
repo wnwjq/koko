@@ -1,0 +1,35 @@
+.header-en_logo-search {
+    margin: 10px;
+    border-bottom: solid 0.1px rgb(139, 139, 139);
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.header-en_logo-search>h1 {
+    margin-left: 50px;
+    font-size: 38px;
+    font-weight: 600;
+}
+
+.header-en_logo-search>i {
+    margin-right: 50px;
+}
+
+.Header-ko_logo-menu {
+    margin: 25px;
+    border-bottom: solid 0.1px rgb(139, 139, 139);
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+
+}
+
+.Header-ko_logo-menu>h1 {
+    margin-left: 50px;
+    font-weight: 600;
+}
+
+.Header-ko_logo-menu>i {
+    margin-right: 50px;
+}

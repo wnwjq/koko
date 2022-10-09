@@ -1,0 +1,322 @@
+.messenger {
+    display: flex;
+    justify-content: center;
+    color: black;
+    margin-bottom: 160px;
+}
+
+.messenger_left {
+    margin: 10px;
+    height: 400px;
+    width: 240px;
+    border-radius: 20px;
+    background: white;
+}
+
+.messenger_left-header {
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 1px black;
+}
+
+.messenger_left-header>div:first-child {
+    padding: 10px 10px 10px 0px;
+}
+
+.messenger_left-header>div:first-child>h1 {
+    font-weight: 600;
+}
+
+.messenger_left-header>div:last-child {
+    padding: 10px 0px 10px 10px;
+}
+
+.messenger_left-header>div:last-child>i {
+    margin: 0px 5px;
+}
+
+.messenger_left-content>ul>li {
+    border-bottom: solid 1px rgb(188, 188, 188);
+    padding: 5px 5px 5px 0px;
+    margin: 10px;
+    display: flex;
+    align-items: end;
+}
+
+.messenger_left-content>ul>li>div {
+    border-radius: 50%;
+}
+
+.messenger_left-content>ul>li:first-child>div {
+    height: 40px;
+    width: 40px;
+    background: url("https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMjA2MDdfMTAx%2FMDAxNjU0NTc4ODE4MTI4.arhK6CmpMS61FWroD5fOU15xtkp0rpPYQh86i2MXYCkg.2kXdyP6SQhhPbfh9JTWeV9cchLyrW550FgwgGJ67sMgg.JPEG.smotherguy%2F0.jpg&type=sc960_832");
+    background-size: 40px;
+    background-repeat: no-repeat;
+}
+
+.messenger_left-content>ul>li:nth-child(2)>div {
+    height: 40px;
+    width: 40px;
+    background: url("https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMDA2MjZfMTcw%2FMDAxNTkzMTQxMjI4OTc4.yLlTDcJtvvdMHmEgZVicu5vdxcTIwQvflqXT0a4K_fUg.e12L3Pl7CwS1tVjeMh4y99WqMA9qe6GTsFw1UtAqNEcg.JPEG.soominluv1009%2FIMG_5686.JPG&type=sc960_832");
+    background-size: 40px;
+    background-repeat: no-repeat;
+}
+
+.messenger_left-content>ul>li:nth-child(3)>div {
+    height: 40px;
+    width: 40px;
+    background: url("https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTA0MjNfMTQz%2FMDAxNjE5MTI5MjU1OTc0.DSlpMKFjUHet7n7ggHb2vdpWn_QzsM9EOTQO4VTeRGsg.VXY_C04uTXkDQgbGoju4PeUVHDnHDpdSKaSs7fcJHwEg.JPEG.jangjiminnnn%2Fe8ed9321efd630c57843480105e5ffd5.jpg&type=sc960_832");
+    background-size: 40px;
+    background-repeat: no-repeat;
+}
+
+.messenger_left-content>ul>li:nth-child(4)>div {
+    height: 40px;
+    width: 40px;
+    background: url("https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMjA0MjRfMjI1%2FMDAxNjUwNzY4NjQ5MDY4.zbXiKB2_2NUxNxqr5O1Zns5zaAJrE9ilHmfXpntXCgEg.po9hr47m_F3mJFICpB61-yON5W-6MeXv2CEFJ-Iox40g.JPEG.marya0605%2FScreenshot%25A3%25DF20220424%25A3%25AD114502%25A3%25DFSamsung_Internet.jpg&type=sc960_832");
+    background-size: 40px;
+    background-repeat: no-repeat;
+}
+
+.messenger_left-content>ul>li:last-child>div {
+    height: 40px;
+    width: 40px;
+    background: url("https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMjA5MTRfODAg%2FMDAxNjYzMTEzMTQyOTk4.XSRB7EF8hsmdQ2xtgEnsXPhP8U65D0QE67yVaajEswgg.x3IMX5nHadmF56Kf2yHnE90-tPJwWz8l_hfNfMqNMDkg.JPEG.gydls004%2F1663113128098.jpg&type=sc960_832");
+    background-size: 40px;
+    background-repeat: no-repeat;
+}
+
+.messenger_left-content>ul>li>p {
+    padding: 5px;
+    font-size: 12px;
+}
+
+.messenger_left-bottom {
+    border-top: solid 1px black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+/*****************************************/
+.messenger_right {
+    margin: 10px;
+    height: 400px;
+    width: 240px;
+    border-radius: 20px;
+    background: white;
+}
+
+.messenger_right-header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 1px;
+    padding: 15px;
+}
+
+.messenger_right-header>div:first-child {
+    margin-left: -5px;
+}
+
+.messenger_right-header h1 {
+    font-weight: 600;
+    margin: 0px -15px 0px 0px;
+}
+
+.messenger_right-header>div:first-child~span {
+    color: rgb(156, 156, 156);
+}
+
+.messenger_right-header i {
+    padding: 0px 4px;
+}
+
+.messenger_right-content>ul>li {
+    margin: 10px;
+    display: flex;
+    align-items: top;
+}
+
+.messenger_right-content p:first-child {
+    font-size: 15px;
+    color: black;
+}
+
+.messenger_right-content p:last-child {
+    color: white;
+}
+
+.messenger_right-content>ul>li>div {
+    border-radius: 50%;
+}
+
+.messenger_right-content>ul>li:first-child>div:first-child {
+    height: 30px;
+    width: 30px;
+    background: url("https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMjA2MDdfMTAx%2FMDAxNjU0NTc4ODE4MTI4.arhK6CmpMS61FWroD5fOU15xtkp0rpPYQh86i2MXYCkg.2kXdyP6SQhhPbfh9JTWeV9cchLyrW550FgwgGJ67sMgg.JPEG.smotherguy%2F0.jpg&type=sc960_832");
+    background-size: 30px;
+    background-repeat: no-repeat;
+}
+
+.messenger_right-content>ul>li:nth-child(2)>div:first-child {
+    height: 30px;
+    width: 30px;
+    background: url("https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMDA2MjZfMTcw%2FMDAxNTkzMTQxMjI4OTc4.yLlTDcJtvvdMHmEgZVicu5vdxcTIwQvflqXT0a4K_fUg.e12L3Pl7CwS1tVjeMh4y99WqMA9qe6GTsFw1UtAqNEcg.JPEG.soominluv1009%2FIMG_5686.JPG&type=sc960_832");
+    background-size: 30px;
+    background-repeat: no-repeat;
+}
+
+.messenger_right-content>ul>li:nth-child(3)>div:first-child {
+    height: 30px;
+    width: 30px;
+    background: url("https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTA0MjNfMTQz%2FMDAxNjE5MTI5MjU1OTc0.DSlpMKFjUHet7n7ggHb2vdpWn_QzsM9EOTQO4VTeRGsg.VXY_C04uTXkDQgbGoju4PeUVHDnHDpdSKaSs7fcJHwEg.JPEG.jangjiminnnn%2Fe8ed9321efd630c57843480105e5ffd5.jpg&type=sc960_832");
+    background-size: 30px;
+    background-repeat: no-repeat;
+}
+
+.messenger_right-content>ul>li:nth-child(4)>div:first-child {
+    height: 30px;
+    width: 30px;
+    background: url("https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMjA0MjRfMjI1%2FMDAxNjUwNzY4NjQ5MDY4.zbXiKB2_2NUxNxqr5O1Zns5zaAJrE9ilHmfXpntXCgEg.po9hr47m_F3mJFICpB61-yON5W-6MeXv2CEFJ-Iox40g.JPEG.marya0605%2FScreenshot%25A3%25DF20220424%25A3%25AD114502%25A3%25DFSamsung_Internet.jpg&type=sc960_832");
+    background-size: 30px;
+    background-repeat: no-repeat;
+}
+
+.messenger_right-content>ul>li:last-child>div:first-child {
+    height: 30px;
+    width: 30px;
+    background: url("https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMjA5MTRfODAg%2FMDAxNjYzMTEzMTQyOTk4.XSRB7EF8hsmdQ2xtgEnsXPhP8U65D0QE67yVaajEswgg.x3IMX5nHadmF56Kf2yHnE90-tPJwWz8l_hfNfMqNMDkg.JPEG.gydls004%2F1663113128098.jpg&type=sc960_832");
+    background-size: 30px;
+    background-repeat: no-repeat;
+}
+
+.messenger_right-content>ul>li:first-child>div:last-child>div {
+    padding: 10px;
+    margin: 8px 0px 0px 5px;
+    border-radius: 5px;
+    background: black;
+    position: relative;
+}
+
+.messenger_right-content>ul>li:first-child>div:last-child>div::after {
+    content: "";
+    border-top: 10px solid transparent;
+    border-left: 10px solid black;
+    border-right: 10px solid transparent;
+    border-bottom: 0px solid transparent;
+    position: absolute;
+    transform: rotate(1.37turn) translateX(-13px) translateY(22px);
+}
+
+.messenger_right-content>ul>li:nth-child(2)>div:last-child>div {
+    padding: 10px;
+    margin: 8px 0px 0px 5px;
+    border-radius: 5px;
+    background: black;
+    position: relative;
+}
+
+.messenger_right-content>ul>li:nth-child(2)>div:last-child>div::after {
+    content: "";
+    border-top: 10px solid transparent;
+    border-left: 10px solid black;
+    border-right: 10px solid transparent;
+    border-bottom: 0px solid transparent;
+    position: absolute;
+    transform: rotate(1.37turn) translateX(-13px) translateY(22px);
+}
+
+.messenger_right-content>ul>li:nth-child(3)>div:last-child>div {
+    padding: 10px;
+    margin: 8px 0px 0px 5px;
+    border-radius: 5px;
+    background: black;
+    position: relative;
+}
+
+.messenger_right-content>ul>li:nth-child(3)>div:last-child>div::after {
+    content: "";
+    border-top: 10px solid transparent;
+    border-left: 10px solid black;
+    border-right: 10px solid transparent;
+    border-bottom: 0px solid transparent;
+    position: absolute;
+    transform: rotate(1.37turn) translateX(-13px) translateY(22px);
+}
+
+.messenger_right-content>ul>li:nth-child(4)>div:last-child>div {
+    padding: 10px;
+    margin: 8px 0px 0px 5px;
+    border-radius: 5px;
+    background: black;
+    position: relative;
+}
+
+.messenger_right-content>ul>li:nth-child(4)>div:last-child>div::after {
+    content: "";
+    border-top: 10px solid transparent;
+    border-left: 10px solid black;
+    border-right: 10px solid transparent;
+    border-bottom: 0px solid transparent;
+    position: absolute;
+    transform: rotate(1.37turn) translateX(-13px) translateY(22px);
+}
+
+.messenger_right-content>ul>li:last-child>div:last-child>div {
+    padding: 10px;
+    margin: 8px 0px 0px 5px;
+    border-radius: 5px;
+    background: black;
+    position: relative;
+}
+
+.messenger_right-content>ul>li:last-child>div:last-child>div::after {
+    content: "";
+    border-top: 10px solid transparent;
+    border-left: 10px solid black;
+    border-right: 10px solid transparent;
+    border-bottom: 0px solid transparent;
+    position: absolute;
+    transform: rotate(1.37turn) translateX(-13px) translateY(22px);
+}
+
+.messenger_right-bottom {
+    background: rgb(89, 89, 89);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: relative;
+    top: -37px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    opacity: 0.96;
+}
+
+.messenger_right-bottom>i {
+    margin-left: 5px;
+}
+
+.messenger_right-bottom>div:last-child {
+    border-radius: 20px;
+    background: rgb(153, 153, 153);
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-right: 5px;
+    margin-top: 5px;
+    padding: 0px 0px 5px 170px;
+}
+
+.messenger_right-bottom>div:last-child>i:first-child {
+    margin-right: 4px;
+    margin-top: 4px;
+}
+
+.messenger_right-bottom>div:last-child>i:last-child {
+    margin-right: 10px;
+    margin-top: 4px;
+}

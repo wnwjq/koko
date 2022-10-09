@@ -1,0 +1,88 @@
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.intro-small_logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.intro-small_logo>div:first-child>p {
+    font-size: 52px;
+    font-weight: 600;
+    position: relative;
+}
+
+.intro-small_logo>div:first-child>p:before {
+    content: "SnnE";
+    font-size: 52px;
+    font-weight: 600;
+    position: absolute;
+    width: 0;
+    left: 0;
+    top: 0;
+    white-space: nowrap;
+    animation: logo 4s linear infinite;
+}
+
+@keyframes logo {
+    0% {
+        width: 0%;
+        overflow: hidden;
+        color: none;
+    }
+
+    25% {
+        width: 25%;
+        color: rgb(128, 205, 128);
+    }
+
+    50% {
+        width: 100%;
+        color: rgb(128, 205, 128);
+    }
+
+    75% {
+        width: 50%;
+        color: rgb(128, 205, 128);
+    }
+
+    100% {
+        width: 0%;
+        color: rgb(235, 254, 235);
+    }
+}
+
+.intro>.intro-text {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.intro>.intro-text>h2 {
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.intro-img {
+    height: 400px;
+    width: 600px;
+    background: url("https://t1.kakaocdn.net/kakaocorp/kakaocorp/admin/service/abcd3a11017900001.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+main>div:first-child {
+    height: 730px;
+    overflow-y: scroll;
+}
+
+main>div:first-child::-webkit-scrollbar {
+    width: 0;
+}

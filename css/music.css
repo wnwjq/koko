@@ -1,0 +1,225 @@
+.SnnE_music {
+    margin: 0px 0px 100px 110px;
+    width: 380px;
+    border: solid black;
+    border-radius: 20px;
+    background: black;
+}
+
+.SnnE_music-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 15px;
+}
+
+.SnnE_music-intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.SnnE_music-intro>div:first-child {
+    height: 120px;
+    width: 120px;
+    background: url("https://musicmeta-phinf.pstatic.net/album/006/013/6013381.jpg?type=r360Fll&v=20220927140906");
+    background-repeat: no-repeat;
+    background-size: 120px;
+    border-radius: 50%;
+    box-shadow: 1px 7px 10px pink;
+    margin: 0px 0px 15px 0px;
+}
+
+.SnnE_music-intro>div:nth-child(2)>h2 {
+    color: rgb(251, 154, 170);
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.SnnE_music-intro>div:nth-child(2)>p {
+    font-size: 18px;
+    text-align: center;
+}
+
+.SnnE_music-intro>div:last-child>button {
+    height: 40px;
+    width: 100px;
+    border-radius: 30px;
+    background: white;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 10px;
+}
+
+.SnnE_music-intro>div:last-child>button>i {
+    color: rgb(234, 122, 140);
+    margin-right: 10px;
+}
+
+.SnnE_music-list>div:first-child>ul>li:first-child>div:first-child {
+    height: 70px;
+    width: 70px;
+    border-radius: 10px;
+    background: url("https://musicmeta-phinf.pstatic.net/album/007/443/7443411.jpg?type=r480Fll&v=20220421114109");
+    background-repeat: no-repeat;
+    background-size: 70px;
+
+}
+
+.SnnE_music-list>div:first-child>ul>li:nth-child(2)>div:first-child {
+    height: 70px;
+    width: 70px;
+    border-radius: 10px;
+    background: url("https://musicmeta-phinf.pstatic.net/album/008/002/8002223.jpg?type=r480Fll&v=20220907113131");
+    background-repeat: no-repeat;
+    background-size: 70px;
+}
+
+.SnnE_music-list>div:first-child>ul>li:nth-child(3)>div:first-child {
+    height: 70px;
+    width: 70px;
+    border-radius: 10px;
+    background: url("https://musicmeta-phinf.pstatic.net/album/007/511/7511118.jpg?type=r480Fll&v=20220424175914");
+    background-repeat: no-repeat;
+    background-size: 70px;
+}
+
+.SnnE_music-list>div:first-child>ul>li:nth-child(4)>div:first-child {
+    height: 70px;
+    width: 70px;
+    border-radius: 10px;
+    background: url("https://musicmeta-phinf.pstatic.net/album/007/385/7385585.jpg?type=r480Fll&v=20220405155416");
+    background-repeat: no-repeat;
+    background-size: 70px;
+}
+
+.SnnE_music-list>div:first-child>ul>li:nth-child(5)>div:first-child {
+    height: 70px;
+    width: 70px;
+    border-radius: 10px;
+    background: url("https://musicmeta-phinf.pstatic.net/album/007/651/7651729.jpg?type=r480Fll&v=20220703184801");
+    background-repeat: no-repeat;
+    background-size: 70px;
+}
+
+.SnnE_music-list>div:first-child>ul>li:nth-child(6)>div:first-child {
+    height: 70px;
+    width: 70px;
+    border-radius: 10px;
+    background: url("https://musicmeta-phinf.pstatic.net/album/007/969/7969069.jpg?type=r480Fll&v=20220831152928");
+    background-repeat: no-repeat;
+    background-size: 70px;
+}
+
+.SnnE_music-list>div:first-child>ul>li:nth-child(7)>div:first-child {
+    height: 70px;
+    width: 70px;
+    border-radius: 10px;
+    background: url("https://musicmeta-phinf.pstatic.net/album/005/083/5083052.jpg?type=r480Fll&v=20220513023511");
+    background-repeat: no-repeat;
+    background-size: 70px;
+}
+
+.SnnE_music-list>div:first-child>ul>li:nth-child(8)>div:first-child {
+    height: 70px;
+    width: 70px;
+    border-radius: 10px;
+    background: url("https://musicmeta-phinf.pstatic.net/album/000/196/196847.jpg?type=r480Fll&v=20220514073516");
+    background-repeat: no-repeat;
+    background-size: 70px;
+}
+
+.SnnE_music-list>div:first-child>ul>li:nth-child(9)>div:first-child {
+    height: 70px;
+    width: 70px;
+    border-radius: 10px;
+    background: url("https://musicmeta-phinf.pstatic.net/album/007/385/7385585.jpg?type=r480Fll&v=20220405155416");
+    background-repeat: no-repeat;
+    background-size: 70px;
+}
+
+.SnnE_music-list>div:first-child>ul>li:last-child>div:first-child {
+    height: 70px;
+    width: 70px;
+    border-radius: 10px;
+    background: url("https://musicmeta-phinf.pstatic.net/album/007/932/7932749.jpg?type=r480Fll&v=20220923171112");
+    background-repeat: no-repeat;
+    background-size: 70px;
+}
+
+.SnnE_music-list li>div:nth-child(2) {
+    margin-left: -120px;
+    width: 100px;
+    white-space: nowrap;
+}
+
+.SnnE_music-list li {
+    display: flex;
+    justify-content: space-between;
+}
+
+.SnnE_music-list li>div:last-child {
+    margin-right: 10px;
+}
+
+.SnnE_music-list li>div:last-child i {
+    margin-right: 5px;
+}
+
+.SnnE_music-list>div:first-child {
+    height: 300px;
+    overflow-y: scroll;
+}
+
+.SnnE_music-list>div:first-child::-webkit-scrollbar {
+    width: 1px;
+}
+
+.SnnE_music-list>div:first-child::-webkit-scrollbar-track {
+    background: black;
+}
+
+.SnnE_music-list>div:first-child::-webkit-scrollbar-thumb {
+    background: white;
+}
+
+.SnnE_music-list li {
+    margin: 7px 15px;
+    display: flex;
+    align-items: center;
+    border: solid 1px white;
+    border-top: none;
+    border-left: none;
+    border-radius: 15px;
+    box-shadow: 1px 1px 7px white;
+}
+
+.SnnE_music-but {
+    border: solid white;
+    border-radius: 30px;
+    margin: 13px;
+    padding: 10px;
+    display: flex;
+    background: white;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    box-shadow: 1px 2px 10px pink;
+}
+
+.SnnE_music-but>div:first-child {
+    margin-left: 20px;
+}
+
+.SnnE_music-but h1,
+.SnnE_music-but p {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.SnnE_music-but>div:last-child {
+    margin-right: 20px;
+}
+
+.SnnE_music-but i {
+    margin-right: 10px;
+}
